@@ -1,0 +1,17 @@
+FLUJO DEL SISTEMA EN PSEUDOCÓDIGO
+
+1. Iniciar aplicación.
+2. Crear repositorio de trabajadores.
+3. Registrar gerente general.
+4. Registrar cinco jefes de área.
+5. Para cada área:
+   5.1 Registrar dos asistentes.
+   5.2 Registrar cinco técnicos.
+6. Validar límites del negocio.
+7. Mostrar menú de opciones en Streamlit.
+8. Si el usuario elige resumen general, mostrar indicadores.
+9. Si el usuario elige listado completo, mostrar todos los trabajadores.
+10. Si el usuario elige consulta por área, filtrar y mostrar trabajadores.
+11. Si el usuario elige ficha individual, mostrar resumen, jefe inmediato y estado.
+12. Si el usuario elige validación, comprobar reglas y mostrar resultados.
+13. Fin.
