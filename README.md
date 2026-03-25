@@ -56,8 +56,7 @@ python scripts/setup_env.py
 El archivo `requirements.txt` contiene solo dependencias de ejecución. Eso evita despliegues lentos o fallidos.
 
 ## Repositorio
-Cuando lo subas a GitHub, reemplaza esta línea por el enlace real:
-`https://github.com/TU_USUARIO/business-corporation-rrhh-streamlit-ready`
+https://github.com/i2522136-Juan/business-corporation-rrhh-streamlit-ready
 
 ## Observación
 El enunciado lista cuatro áreas específicas, pero pide cinco jefes de área. Para cumplir el mínimo exigido, se añadió el área de Finanzas.
