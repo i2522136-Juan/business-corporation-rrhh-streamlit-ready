@@ -14,7 +14,7 @@ from views.nuevo_trabajador import render_nuevo_trabajador
 
 st.set_page_config(page_title="Business Corporation | RR. HH.", page_icon="🏢", layout="wide")
 
-# Inicializar o recuperar el repositorio del estado de sesión
+# Inicializar o recuperar el repositorio del estado de sesion
 if "repo" not in st.session_state:
     st.session_state.repo = crear_datos_demo()
 
@@ -25,17 +25,17 @@ st.title("🏢 Sistema de Recursos Humanos - Business Corporation")
 st.caption("Proyecto modular en Python + Streamlit preparado para ejecutarse correctamente en Streamlit Cloud.")
 
 with st.sidebar:
-    st.header("Menú")
+    st.header("Menu")
     vista = st.radio(
-        "Seleccione una opción",
+        "Seleccione una opcion",
         [
             "Resumen general",
             "Nuevo trabajador",
             "Listado completo",
-            "Consulta por área",
+            "Consulta por area",
             "Ficha de trabajador",
-            "Validación de reglas",
-            "Explicación técnica",
+            "Validacion de reglas",
+            "Explicacion tecnica",
         ],
     )
 
@@ -50,13 +50,13 @@ elif vista == "Nuevo trabajador":
 elif vista == "Listado completo":
     render_listado_completo(trabajadores)
 
-elif vista == "Consulta por área":
+elif vista == "Consulta por area":
     render_consulta_area(repo, trabajadores)
 
 elif vista == "Ficha de trabajador":
     render_ficha(repo, trabajadores)
 
-elif vista == "Validación de reglas":
+elif vista == "Validacion de reglas":
     render_reglas(repo, trabajadores)
 
 else:
